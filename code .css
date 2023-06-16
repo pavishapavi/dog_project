@@ -1,0 +1,345 @@
+.box2{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+
+    margin: auto;
+   padding: 0px 25px;
+   display: flex;
+   align-items: center;
+   justify-content:flex-start;
+
+   }
+   .box2  h1{
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+   }
+   .box2 ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   }
+   .box2 ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    list-style: none;
+    cursor: pointer;
+    margin-right: 15px;
+
+font-size: 12px;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    
+    
+   }
+   .box2 ul li:first-child
+   {
+  color:white;
+   }
+   .box2 ul li:hover
+   {
+  color:white;
+   }
+    img{
+    width: 250vh;
+    height: 50%;
+object-fit: cover;
+background-size: contain;
+background-repeat: repeat;
+
+   }.box2{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+
+    margin: auto;
+   padding: 0px 25px;
+   display: flex;
+   align-items: center;
+   justify-content:flex-start;
+
+   }
+   .box2  h1{
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+   }
+   .box2 ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   }
+   .box2 ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    list-style: none;
+    cursor: pointer;
+    margin-right: 15px;
+
+font-size: 12px;
+    transition: 0.5s;
+    letter-spacing: 2px;
+    
+    
+   }
+   .box2 ul li:first-child
+   {
+  color:white;
+   }
+   .box2 ul li:hover
+   {
+  color:white;
+   }
+    img{
+    width: 250vh;
+    height: 50%;
+object-fit: cover;
+background-size: contain;
+background-repeat: repeat;
+
+   }
+
+
+
+   <div class="box2">
+        <h1>BREED</h1>
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>BREED</li>
+            <li>BLOG</li>
+            <li>CONTACT</li>
+        </ul>
+
+
+
+
+        .content{
+            height: 60vh;
+            width: 1600px;
+            background-color: rgb(121, 121, 121);
+            margin: auto;
+          
+          
+            
+           }
+           
+           .content h1{
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight:bolder;
+            color: rgb(255, 255, 255);
+            font-size: 35px;
+            padding-top: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+           
+          
+          
+           }
+           .content p{
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 15px;display: flex;
+            justify-content: center;
+            align-items: center;
+            color: rgba(249, 245, 245, 0.734);
+            padding-top: 14px;
+           }
+           .button{
+          position: absolute;
+          top: 49%;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          display: flex;
+           }
+            .btn{
+            height: 40px;
+            width: 150px;
+            border-radius: 5px;
+            font-size: 15px;
+            border:2px solid white;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: transparent;
+          letter-spacing: 1px;
+          
+          color: white;
+          
+          }
+          
+          
+           .btn1{
+            height: 50px;
+            width: 200px;
+            border-radius: 10px;
+            font-size: 15px;
+            border: none;
+          
+          color: white;
+          background-color: transparent;
+          letter-spacing: 3px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+          }
+          .para p{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 60px;
+          letter-spacing: 5px;
+          position: absolute;
+          left: 680px;
+          bottom: 30px;
+          
+          
+          
+          }
+          
+          .para h4{display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+           padding-right: 130px; 
+           
+          color: rgba(241, 241, 9, 0.791);
+          position: absolute;
+          left: 680px;
+          bottom: 0px;
+          
+          
+          }
+          .para h3{
+            font-family:'Times New Roman', Times, serif;
+            color: rgba(16, 15, 15, 0.67);
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 100px;
+            padding-bottom: 100px;
+            position: absolute;
+            left: 500px;
+            top: 800px;
+            word-spacing: 10px;
+            line-height: 30px;
+          }
+          .para h5{font-family:'Times New Roman', Times, serif;
+            color: rgba(5, 5, 5, 0.753);
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content:flex-end;
+            padding-left: 200px;
+            position: absolute;
+            word-spacing: 10px;
+            line-height: 30px;
+          left: 890px;
+          top: 800px;
+          }
+          .para img{
+            height: 700px;
+            width: 500px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 200px;
+            margin: 80px;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="content">
+    <h1>CARE FOR DOG</h1>
+    <p>   Lorem ipsum dolor sit amet,consectetur adipiscing elit commodi unde impedit,<br>necessitatibus,soluta sit quam minima expedita atque corrupti reiciendis.</p>
+    <div class="button">
+    <button class="btn" >GET STARTED</button>
+    <button class="btn1" >DOWNLOAD</button>
+
+</div>
+</div>
+<div class="para">
+    <img src="https://w0.peakpx.com/wallpaper/1001/967/HD-wallpaper-labrador-retriever-labrador-dog-pet.jpg">
+    <p>It's a Dog Life</p>
+    <h4>Curious story of Dogs</h4>
+    <h3>Far faraway,behind the word mountains,far <br>from the countries vokalia and consonantia, <br>there live the blind texts,Separated they live  <br> Bookmarksgrove right at the coast of the <br>semantics,a largre language ocean.
+    <br>
+    <br>
+    A small river named duden flows by their  <br>place and supplies it with the necessary <br>regelialia. It is a paradisematic country,  <br>which roasted parts of sentences fly into <br>your mouth.
+    <br>
+    <br>
+    Even the all-powerful Pointing has no <br>control about the blind texts it is an <br>almost unorthographic life One day <br>however a small line of blind text by the <br>name of Lorem Ipsum decided to leave <br>for the far World of Grammar.
+    <br> 
+    <br></h3>
+    <h5>
+    Far far away, behind the word <br>mountains, far <br> from the countries Vokalia and Consonantia, <br> there live the <br>blind texts . Separated they live in  <br>Bookmarksgrove right at the coast of the  <br>Semantics, a large language ocean.
+    <br>
+    <br>
+
+    A small river named Duden flows by their place <br> and supplies it with the necessary regelialia. It is  <br> paradisematic country, in which roasted parts of <br>sentences fly into your mouth.</h5>     
+
+</div>
+</div>
+</body>
+</html>
+          
+            
+          
+          
+          
+          
+          
+            
+<div class="log">
+<div class="log1">
+    <img class="img" src="./images/img.jpeg" alt="">
+</div>
+<div class="log2">Far far away, behind the word <br>mountains, far  from the countries <br> Vokalia and Consonantia, there live the <br>blind texts. Separated they live  in Bookmarksgrove right at the coast of  <br> Semantics, a large language ocean. <br>
+<br>
+
+A small river named Duden flows by  <br> their place and supplies it with the necessary  regelialia.<br> It is a paradisematic country,<br>  which roasted parts of sentences fly  <br> your mouth.
+<br>
+<br>
+Even the all-powerful Pointing has no <br> control about the blind texts it is an <br>almost unorthographic life One day <br>however a small line of blind text by the <br> name of Lorem Ipsum decided to leave <br> for the far World of Grammar. </div>
+<div class="log3">Far far away, behind the word <br>mountains, far from the countries <br>Vokalia and Consonantia, there live the <br> blind texts. Separated they live in <br> Bookmarksgrove right at the coast of  <br> the Semantics, a large language ocean.
+<br >
+<br>
+
+A small river named Duden flows by  <br>their place and supplies it with the <br>necessary  regelialia. It is a paradisematic country,  in which<br> roasted parts of sentences fly <br>into  your mouth.</div>
+</div>
+
+
+
+
+</body> 
+           
+          
+          
+          
