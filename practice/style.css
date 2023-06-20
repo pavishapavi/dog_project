@@ -1,0 +1,44 @@
+a {
+  color: red;
+}
+
+a:visited {
+  color: yellow;
+}
+a:active {
+  color: blue;
+}
+
+input {
+  border: 2px solid green;
+  outline: none;
+  transition: 10s;
+}
+
+input:focus {
+  border-color: red;
+  border-radius: 20px;
+}
+
+input:valid {
+  border-color: blueviolet;
+}
+/* input:invalid {
+  border-color: black;
+} */
+
+button {
+  outline: none;
+  border: none;
+}
+
+button:hover {
+  background-color: yellow;
+  color: red;
+}
+.btns button:nth-child(1) {
+  background: purple;
+}
+.btns:not(button) {
+  color: green;
+}
