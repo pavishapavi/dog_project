@@ -136,7 +136,8 @@
   top: 0;
   right: 0;
 }
-.nav {  height: 70px;
+.nav {
+  height: 70px;
   width: 100%;
   background: transparent;
   position: absolute;
@@ -147,17 +148,15 @@
   justify-content: space-between;
   top: 1px;
   /* background-color: aqua; */
-
 }
 .box3 .nav .one {
   /* background-color: blue; */
   height: 70px;
-  width:19%;
+  width: 19%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   color: rgba(255, 255, 255, 0.685);
- 
 }
 .box3 .nav .two {
   /* background-color: blue; */
@@ -168,8 +167,6 @@
   justify-content: flex-end;
   align-items: center;
   gap: 20px;
-
-  
 }
 .two a {
   color: rgba(162, 160, 160, 0.838);
@@ -475,7 +472,6 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .inerbox2 {
   height: 40%;
@@ -503,7 +499,7 @@ a:hover {
   text-align: center;
 }
 
-.sec5 .inerbox2 .bxs2 h1{
+.sec5 .inerbox2 .bxs2 h1 {
   padding-top: 15%;
 }
 
@@ -524,9 +520,9 @@ a:hover {
 }
 .sec5 .inerbox2 .content1 .one,
 .two,
-.three,.four {
+.three,
+.four {
   flex: 1;
-
 }
 
 .sec5 .inerbox2 .content1 .one {
@@ -534,13 +530,12 @@ a:hover {
 }
 
 .sec5 .inerbox2 .content1 .one img {
-  height: 90%;
+  height: 80%;
   width: 90%;
   object-fit: cover;
 }
 .sec5 .inerbox2 .content1 .three {
   height: 400%;
-  
 }
 .sec5 .inerbox2 .content1 .three img {
   height: 95%;
@@ -548,99 +543,88 @@ a:hover {
   object-fit: cover;
 }
 
-.sec5 .inerbox2 .content1 .two h1{
+.sec5 .inerbox2 .content1 .two h1 {
   font-size: 17px;
 }
-.sec5 .inerbox2 .content1 .two h2{
+.sec5 .inerbox2 .content1 .two h2 {
   color: rgba(255, 166, 0, 0.781);
   font-size: 20px;
   transition: 0.5s;
 }
-.sec5 .inerbox2 .content1 .two h2:hover{
+.sec5 .inerbox2 .content1 .two h2:hover {
   color: rgba(165, 42, 42, 0.603);
 }
-.sec5 .inerbox2 .content1 .two p{
-  font-size: 15px;  margin: 5px;
+.sec5 .inerbox2 .content1 .two p {
+  font-size: 15px;
+  margin: 5px;
 }
-.sec5 .inerbox2 .content1 .two button{
+.sec5 .inerbox2 .content1 .two button {
   color: rgb(240, 240, 240);
 
-background-color: rgba(255, 166, 0, 0.677);
+  background-color: rgba(255, 166, 0, 0.677);
 
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
 
-height: 40px;
-width: 150px;
-border-radius: 5px;
-font-size:15px;
-border: none;
+  letter-spacing: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-
-letter-spacing: 3px;
-display: flex;
-justify-content: center;
-align-items: center;
-
-font-size: 15px;
-letter-spacing: 2px;
-
+  font-size: 15px;
+  letter-spacing: 2px;
 }
 
-
-
-.sec5 .inerbox2 .content1 .four h1{
+.sec5 .inerbox2 .content1 .four h1 {
   font-size: 17px;
 }
-.sec5 .inerbox2 .content1 .four p{
+.sec5 .inerbox2 .content1 .four p {
   color: rgba(255, 166, 0, 0.781);
   font-size: 20px;
-transition: 0.5s;
+  transition: 0.5s;
 }
-.sec5 .inerbox2 .content1 .four p:hover{
+.sec5 .inerbox2 .content1 .four p:hover {
   color: rgba(165, 42, 42, 0.705);
 }
 
-.sec5 .inerbox2 .content1 .four button{
+.sec5 .inerbox2 .content1 .four button {
   color: rgb(240, 240, 240);
 
-background-color: rgba(255, 166, 0, 0.677);
+  background-color: rgba(255, 166, 0, 0.677);
 
+  height: 40px;
+  width: 150px;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+  margin: 5px;
 
-height: 40px;
-width: 150px;
-border-radius: 5px;
-font-size:15px;
-border: none;
-margin: 5px;
+  letter-spacing: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-letter-spacing: 3px;
-display: flex;
-justify-content: center;
-align-items: center;
-
-font-size: 15px;
-letter-spacing: 2px;
-
+  font-size: 15px;
+  letter-spacing: 2px;
 }
-
-
-
-
 
 /* .endddddd */
 
-.end{
+.end {
   height: 80vh;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.889);
-color: white;
-display: flex;
-padding: 100px;
-padding-top: 100px;
-align-items: center;
-justify-content: space-between;
-
+  color: white;
+  display: flex;
+  padding: 100px;
+  padding-top: 100px;
+  align-items: center;
+  justify-content: space-between;
 }
-.end .box9{
+.end .box9 {
   display: flex;
   /* background-color: aqua; */
   width: 90%;
@@ -648,45 +632,46 @@ justify-content: space-between;
   font-size: 18px;
   color: rgba(134, 134, 134, 0.935);
   line-height: 30px;
-margin: 10%;
-  
+  margin: 10%;
 }
 .end .box9 .one,
 .two,
 .three {
-  flex: 1;}
+  flex: 1;
+}
 
+.end .box9 .one h1 {
+  font-size: 18px;
+  color: white;
+}
+.end .box9 .one p {
+  font-size: 12px;
+  color: rgba(240, 248, 255, 0.554);
+}
 
-  .end .box9 .one h1{
-    font-size: 18px;
-    color: white;
-  }
-  .end .box9 .one p{
-    font-size: 12px;
-    color: rgba(240, 248, 255, 0.554);
-  }
-  
-  .end .box9 .two h1{
-    font-size: 18px;
-    color: white;
-  }
-  .end .box9 .two  p{
-    color: white;
-    font-size: 12px;
-  }
-  .end .box9 .two h2,h3,h4{
-    font-size: 16px;
-  }
-  .end .box9 .three h1{
-    color: white;
-    font-size: 18px;
-  }
-  .end .box9 .three a{
-    color: orange;
-    text-decoration: none;
-    transition: 0.5s;
-    font-size: 13px;
-  }
-  .end .box9 .three a:hover{
-    color: white;
-  }
+.end .box9 .two h1 {
+  font-size: 18px;
+  color: white;
+}
+.end .box9 .two p {
+  color: white;
+  font-size: 12px;
+}
+.end .box9 .two h2,
+h3,
+h4 {
+  font-size: 16px;
+}
+.end .box9 .three h1 {
+  color: white;
+  font-size: 18px;
+}
+.end .box9 .three a {
+  color: orange;
+  text-decoration: none;
+  transition: 0.5s;
+  font-size: 13px;
+}
+.end .box9 .three a:hover {
+  color: white;
+}
