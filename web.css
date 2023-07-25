@@ -168,6 +168,7 @@
   align-items: center;
   gap: 20px;
 }
+
 .two a {
   color: rgba(162, 160, 160, 0.838);
   text-decoration: none;
@@ -212,7 +213,7 @@ a:hover {
   align-items: center;
   margin: 30px;
 }
-.btn {
+.btn11 {
   height: 60px;
   width: 200px;
   border-radius: 5px;
@@ -223,7 +224,6 @@ a:hover {
   align-items: center;
   background-color: transparent;
   letter-spacing: 3px;
-
   color: white;
 }
 .btn1 {
@@ -239,7 +239,7 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-.text-box .button .btn:hover {
+.text-box .button .btn11:hover {
   color: black;
   background-color: white;
 }
@@ -279,6 +279,11 @@ a:hover {
 .three {
   flex: 1;
 }
+
+.im1{
+  padding: 10px;
+
+}
 .box4 .content .one {
   height: 400px;
 }
@@ -292,6 +297,7 @@ a:hover {
   background-color: white;
   color: orange;
   font-size: 20px;
+
 }
 
 /* sec3 */
@@ -408,6 +414,8 @@ a:hover {
 }
 .se3p {
   text-align: center;
+  margin-bottom: 10px;
+  color: gray;
 }
 
 .bx3 {
@@ -563,8 +571,7 @@ a:hover {
 
   background-color: rgba(255, 166, 0, 0.677);
 
-  height: 40px;
-  width: 150px;
+  padding: 5px 20px;
   border-radius: 5px;
   font-size: 15px;
   border: none;
@@ -578,14 +585,21 @@ a:hover {
   letter-spacing: 2px;
 }
 
-.sec5 .inerbox2 .content1 .four h1 {
+.sec5 .inerbox2 .content1 .four h1,h2 {
   font-size: 17px;
+  margin-top: 10px;
+
+}
+.feb{
+  font-size: 18px;
 }
 .sec5 .inerbox2 .content1 .four p {
   color: rgba(255, 166, 0, 0.781);
   font-size: 20px;
   transition: 0.5s;
+  
 }
+
 .sec5 .inerbox2 .content1 .four p:hover {
   color: rgba(165, 42, 42, 0.705);
 }
@@ -594,9 +608,9 @@ a:hover {
   color: rgb(240, 240, 240);
 
   background-color: rgba(255, 166, 0, 0.677);
-
-  height: 40px;
-  width: 150px;
+padding: 5px 20px;
+  /* height: 30px; */
+  /* width: 150px; */
   border-radius: 5px;
   font-size: 15px;
   border: none;
@@ -614,7 +628,7 @@ a:hover {
 /* .endddddd */
 
 .end {
-  height: 80vh;
+  height: 65vh;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.889);
   color: white;
@@ -645,9 +659,21 @@ a:hover {
   color: white;
 }
 .end .box9 .one p {
-  font-size: 12px;
+  font-size: 15px;
   color: rgba(240, 248, 255, 0.554);
 }
+.end .box9 .b {
+  color: orange;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  padding: 15px;
+  gap: 18px;
+  margin: 0;
+  
+}
+/* align-items: center;} */
 
 .end .box9 .two h1 {
   font-size: 18px;
@@ -655,12 +681,16 @@ a:hover {
 }
 .end .box9 .two p {
   color: white;
-  font-size: 12px;
+  font-size: 15px;
 }
 .end .box9 .two h2,
 h3,
 h4 {
-  font-size: 16px;
+  font-size: 25px;
+}
+
+.h3333{
+  font-size: 20px;
 }
 .end .box9 .three h1 {
   color: white;
@@ -670,8 +700,28 @@ h4 {
   color: orange;
   text-decoration: none;
   transition: 0.5s;
-  font-size: 13px;
+  font-size: 15px;
 }
 .end .box9 .three a:hover {
   color: white;
 }
+
+
+.link{
+  height: 80px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.711);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: gray;
+}
+
+
+span{
+  color: orange;
+  gap: 3px;
+  font-size: 15px;
+}
+
